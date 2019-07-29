@@ -1,10 +1,11 @@
 import express from 'express'
 import list from './actions/list'
+import auth from '../../middleware/auth'
 const router = express.Router()
 
-router.get('/', list)
+router.get('/', auth, list)
 
-router.get('/:id', list)
+router.get('/:id', auth, list)
 
 // export default router
 module.exports = router

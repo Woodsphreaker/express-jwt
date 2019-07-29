@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken'
-import secret from '../../../helpers/secrets'
+import secret from '../../../config/secrets'
 
 export default (req, res) => {
   const { user, pass } = req.body
