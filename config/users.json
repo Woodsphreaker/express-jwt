@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "user": "woods",
+        "pass": "123456"
+    },
+    {
+        "id": 2,
+        "user": "grazi",
+        "pass": "123456"
+    },
+    {
+        "id": 3,
+        "user": "mateus",
+        "pass": "123456"
+    },
+    {
+        "id": 4,
+        "user": "enrico",
+        "pass": "123456"
+    }   
+]
