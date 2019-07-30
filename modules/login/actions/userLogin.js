@@ -11,7 +11,7 @@ export default (req, res) => {
   if(pass !== userData.pass) { return res.status(401).send('user or password invalid ') }
 
   const token = jwt.sign({ user }, secret.key, {
-    expiresIn: 600
+    expiresIn: 360000
   })
   
   res.cookie('Authorization', `Bearer ${token}`, { maxAge: 360000, httpOnly: true })
