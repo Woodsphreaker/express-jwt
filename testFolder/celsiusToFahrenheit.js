@@ -1,5 +1,3 @@
 export default (celsius) => {
-  return {
-    celsius
-  }
+  return celsius * 1
 }
