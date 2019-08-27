@@ -6,6 +6,7 @@ import cors from 'cors'
 
 const app = express()
 
+app.set('trust proxy', true)
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors())
